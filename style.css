@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+button:hover, a:hover{
+    cursor:pointer;
+}
+
 .content{
     min-width: 320px;
     font-family: 'TT Lakes', serif;
@@ -50,7 +54,10 @@ li {
 .button{
     background: white;
     font-family: 'TT Lakes', serif;
+    font-size: 16px;
+    line-height: 24px;
 }
+
 
 .burger{
     padding-right: 8px;
@@ -120,7 +127,7 @@ li {
     align-items: center;
     background: #F8F8F8;
 }
-.title__button span{
+.title__button p{
     flex-shrink: 0;
     font-size: 16px;
     line-height: 24px;
